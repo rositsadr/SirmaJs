@@ -1,0 +1,22 @@
+const input1=[[1, 2, 3],[4, 5, 6],[7, 8, 9]];
+const input2=[[1, 0, 0, 0],[0, 0, 0, 1],[0, 1, 0, 0],[0, 0, 1, 0]];
+const input3=["8 1 6","3 5 7","4 9 2"];
+
+function mat(input){
+    let matrix=[];
+    input.forEach(row => {
+        let data = row.split(" ").map(element=>parseInt(element));
+        matrix.push(data);
+    });
+
+    return matrix;
+    //console.log(...matrix);
+}
+
+//tova sushto stava: let data = input.map((row)=>row.split(" "));
+
+let newMatrix = mat(input3);
+
+console.log(...newMatrix);
+console.log(...input1);
+console.log(...input3);
