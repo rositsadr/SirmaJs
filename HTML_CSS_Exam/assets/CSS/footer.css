@@ -1,0 +1,47 @@
+footer{
+    background-color: #111111;
+    color: #fff;
+}
+
+footer .container{
+    justify-content: space-evenly;
+    padding-top: 190px;
+    padding-bottom: 250PX;
+}
+
+footer .container .about,
+footer .container .heading-two,
+footer .container .heading-three{
+    flex: 1 1 33%;
+}
+
+footer .container h4{
+    font-size: 25px;
+    line-height: 31px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+footer .container p{
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+footer .container .heading-two p{
+    padding-left: 20px;
+}
+
+footer .container p span{
+    margin-left: 5px;
+}
+
+footer .container .heading-three .phone,
+footer .container .heading-three .e-mail,
+footer .container .heading-three .address{
+    padding-left: 20px;
+}
+
+footer .map{
+    margin-top: 25px;
+}

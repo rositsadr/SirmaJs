@@ -1,0 +1,33 @@
+.testimonials{
+    background-image: url('../Images/testemonials-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 280px;
+    position: relative;
+    z-index: 999;
+}
+
+.testimonials::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ff7d57;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.testimonials p{
+    position: relative;
+    margin: 0 auto;
+    max-width: 75%;;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    z-index: 999;
+}

@@ -1,0 +1,95 @@
+header .bg{
+    background-image: url("../Images/Header_Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+header .nav.container{
+    align-items: center;
+    padding-top: 30px;
+}
+
+header .logo{
+    width: 85px;
+    height: 80px;
+    margin-right: 185px;
+}
+
+header .nav.container nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+header nav ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: #b1fbff;
+}
+
+header .banner.container .banner-content{
+    max-width: 60%;
+    margin-top: 110px;
+    margin-bottom: 195px;
+}
+
+header .banner.container .banner-content h1{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Aleo";
+    line-height: 125px;
+    margin-bottom: 55px;
+}
+
+header .banner.container .banner-content button{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    /* font-family: "Montserrat"; */
+    text-align: center;
+    width: 202px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #1b6ec7;
+    border: none;
+    transition: 0.2s;
+}
+
+header .banner.container .banner-content button:hover{
+    background-color: #fff;
+    color: #1b6ec7;
+}
+
+@media screen and (max-width:1220px){
+    header .logo{
+        width: 65px;
+        height: 60px;
+        margin-right: 150px;
+    }
+
+    header nav ul li a{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    header .banner.container .banner-content h1{
+        font-size: 70px;
+        font-weight: 700;
+        font-family: "Aleo";
+        line-height: 125px;
+    }
+}

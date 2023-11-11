@@ -1,0 +1,65 @@
+section.statistics {
+    background-color: #1b6dc7;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 215px;
+    color: #fff;
+    position: relative;
+}
+
+.container.statistics{
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.container.statistics .content{
+    /* flex:1 1 25%; */
+    align-items: center;
+}
+
+.statistics >h2{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-bottom: 60px;
+}
+
+.statistics .content p{
+    width: 255px;
+    height: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.statistics .content .circle{
+    width: 249px;
+    height: 249px;
+    border-radius: 50%;
+    /* background-color: #b2fcff; */
+    border: 10px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics .content .circle h2{
+    font-size: 96px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.statistics img.pizza{
+    position: absolute;
+    top:-150px;
+    left: 65px;
+    z-index: 99;
+}
+
+@media screen and (max-width:1220px){       
+    .statistics img.pizza{
+        display: none;
+     }
+}

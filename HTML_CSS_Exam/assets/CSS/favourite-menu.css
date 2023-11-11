@@ -1,0 +1,58 @@
+div.favourite-bg{
+    text-align: center;
+    background-color: #ff7e58;
+    padding: 90px 160px 130px 160px;
+    color: #fff;
+}
+
+div.favourite-bg h2{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-bottom: 30px;
+}
+
+div.favourite-bg >p{
+    max-width: 65%;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+div.container.menu{
+    padding:0;
+    justify-content: space-evenly;
+    gap: 10px
+}
+
+div.container.menu .menu-item{
+    padding-top: 20px;
+    flex: 1 1 30%;
+}
+
+div.container.menu .menu-item img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+div.container.menu .menu-item h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+div.container.menu .menu-item p{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1220px){
+    div.favourite-bg h2{
+        font-size: 55px;
+    }
+}

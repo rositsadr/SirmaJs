@@ -1,0 +1,49 @@
+.second.product .container.product{
+    flex-direction: row-reverse;
+}
+
+.second.product img.tomato{
+    position: absolute;
+    top:35px;
+    right: 45px;
+    z-index: 99;
+}
+
+.second.product img.burger{
+    position: absolute;
+    top:45px;
+    left: 575px;
+    z-index: 99;
+}
+
+.second.product img.pizza{
+    position: absolute;
+    bottom: 5px;
+    right: 45px;
+    z-index: 99;
+}
+
+.second.product img.sandwitch{
+    position: absolute;
+    bottom: 40px;
+    left: 695px;
+    z-index: 99;
+}
+
+@media screen and (max-width:1220px){
+    .second.product img.tomato{
+       display: none;
+    }
+    
+    .second.product img.burger{
+        display: none;
+    }
+    
+    .second.product img.pizza{
+       display: none;
+    }
+    
+    .second.product img.sandwitch{
+       display: none;
+    }
+}
